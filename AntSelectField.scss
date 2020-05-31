@@ -1,0 +1,18 @@
+.m-selectField-dropdown {
+  .dropdown_content {
+    max-height: 250px;
+    overflow: auto;
+    position: relative;
+  }
+  .checkAll {
+    border-bottom: 1px solid #eee;
+  }
+}
+
+.ant-select-dropdown.ant-select-dropdown--multiple .ant-select-dropdown-menu-item .ant-select-selected-icon {
+  left: 12px;
+  right: inherit;
+}
+.ant-select-dropdown.ant-select-dropdown--multiple .ant-select-dropdown-menu-item {
+  padding-left: 32px;
+}
